@@ -10,6 +10,9 @@
   padding: 0;
 
  } 
+ html{
+  scroll-behavior: smooth;
+ }
 
 body {
   min-height: 100vh;
@@ -39,6 +42,7 @@ h1
 {
     font-family: "Rubik Gemstones", system-ui;
     font-size: 2rem;
+    
 }
 .about{
     display: flex;
@@ -76,6 +80,28 @@ h2{
     font-size: 1.2rem;
     
 }
+a{
+   color: white;
+    border:2px solid white;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    position: relative;
+  
+}
+.login::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s;
+  left: 0;
+  bottom: -10px;
+  background-color: white;
+}
+.login:hover::after{
+  width: 100%;
+}
 .about .left button:hover{
     background-color: white;
     color:#340429;
@@ -84,17 +110,28 @@ h2{
     border-radius: 0;
 
 }
+.about .left button:hover a{
+  
+  color:#340429;
+  cursor: pointer;
+  font-weight: 700;
+  
+
+}
 .faq{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    min-height: 70vh;
+    font-family: "Pridi", serif;
     
     
 }
 .accordion-body{
     width: 60%;
+    border-radius: 2rem;
 }
 .accordion {
     
@@ -102,10 +139,13 @@ h2{
     color: black;
     background-color: white;
     padding: 45px 45px;
+    border-radius: 2rem;
+    font-family: "Pridi", serif;
   }
   .accordion .container {
     position: relative;
     margin: 10px 10px;
+    font-family: "Pridi", serif;
   }
   
   
@@ -116,6 +156,7 @@ h2{
     font-size: 30px;
     color: black;
     cursor: pointer;
+    font-family: "Pridi", serif;
   }
   .accordion .label::before {
     content: '+';
@@ -138,6 +179,7 @@ h2{
    
     overflow: hidden;
     transition: 0.5s;
+    font-family: "Pridi", serif;
   }
   
  
@@ -156,5 +198,16 @@ h2{
   .accordion .container.active .label::before {
     content: '-';
     font-size: 30px;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  .footer p{
+    font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
+    
   }
   

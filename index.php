@@ -15,8 +15,8 @@
 <nav>
   <h1>ClientEase</h1>
   <div class="right">
-    <p>Login</p>
-    <p>Register</p>
+    <p><a href="#" class="login">Login</a></p>
+    <p><a href="#" class="login">Register</a></p>
   </div>
 </nav>
 </header>
@@ -26,16 +26,16 @@
         <p>
         Welcome to CRM Hub – Your All-in-One Solution for Streamlining Customer Relationships. Our intuitive platform empowers businesses to effortlessly manage contacts, track interactions, and drive growth. Join us and unlock the potential of seamless customer relations management today!
         </p>
-        <button>Explore Now</button>
+        <a href="#faq"><button>Explore Now</button></a>
     </div>
     <div class="pic">
         <img src="crm.png" alt="img">
     </div>
 </section>
-<section class="faq">
+<section class="faq" id="faq">
 <div class="accordion-body">
   <div class="accordion">
-    <h1>Frequently Asked Questions</h1>
+    <h1 class="faq_h1">EXPLORE</h1>
     <hr>
     <div class="container">
       <div class="label">What is HTML</div>
@@ -48,30 +48,20 @@
 </div>
     </div>
     <hr>
+    
     <div class="container">
-      <div class="label">What is JavaScript?</div>
-      <div class="content">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third of the web trio.</div>
+      <div class="label">What is HTML</div>
+      <div class="content">Hypertext Markup Language (HTML) is a computer language that makes up most web pages and online applications. A hypertext is a text that is used to reference other pieces of text, while a markup language is a series of markings that tells web servers the style and structure of a document. HTML is very simple to learn and use.</div>
     </div>
-    <hr>
-    <div class="container">
-      <div class="label">What is React?</div>
-      <div class="content">React is a JavaScript library created for building fast and interactive user interfaces for web and mobile applications. It is an open-source, component-based, front-end library responsible only for the application’s view layer. In Model View Controller (MVC) architecture, the view layer is responsible for how the app looks and feels. React was created by Jordan Walke, a software engineer at Facebook. </div>
-    </div>
-    <hr>
-    <div class="container">
-      <div class="label">What is PHP?</div>
-      <div class="content">PHP is a server-side and general-purpose scripting language that is especially suited for web development. PHP originally stood for Personal Home Page. However, now, it stands for Hypertext Preprocessor. It’s a recursive acronym because the first word itself is also an acronym.</div>
-    </div>
-    <hr>
-    <div class="container">
-      <div class="label">What is Node JS?</div>
-      <div class="content">Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm</div>
-    </div>
-    <hr>
+    
   </div>
   </div>
 
 </section>
+<hr>
+<div class="footer">
+  <p> @2024 ClientEase</p>
+</div>
 <script>
 const accordion = document.getElementsByClassName('container');
 
