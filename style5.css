@@ -8,8 +8,7 @@ body{
     min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ 
   color: white;
   position: relative;
 
@@ -55,18 +54,4 @@ a{
     justify-content: center;
     align-items: center;
     gap: 1.3rem;
- }
- .main{
-  background-color: aliceblue;
- }
- h3{
-  font-size: 10rem;
- }
- .container{
-    position: absolute;
-    left:10%;
-    top:10%;
-    border: 1.5px solid white;
-    border-radius: 1.5rem;
-    padding: 1rem;
  }
