@@ -55,3 +55,15 @@ a{
     align-items: center;
     gap: 1.3rem;
  }
+ .display table{
+    
+    margin: auto;
+ }
+ th{
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border: 2px solid white;
+    text-align: center;
+
+}
+ 

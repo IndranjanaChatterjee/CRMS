@@ -11,7 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Products</title>
-    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="display.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -32,7 +32,7 @@
         <table>
             <thead>
                 
-                <th>Product Name</th>
+                <th class="th">Product Name</th>
                 <th>Product Image</th>
                 <th>Product Price</th>
                 <th>Action</th>
@@ -53,8 +53,8 @@
                     <td><img src="images/<?php echo $row['image']?>" alt="img"></td>
                     <td><?php echo $row['price']?></td>
                     <td>
-                        <a href="#"><i class="fa-solid fa-trash"></i></a>
-                        <a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+                        <a href="delete.php?delete=<?php echo $row['id']?>" onclick="return confirm('Are you sure you want to delete?');"><i class="fa-solid fa-trash"></i></a>
+                        
                     
                     
                     </td>
@@ -62,10 +62,7 @@
                         <?php
                     }
                  }
-                 else
-                 {
-                    echo "no";
-                 }
+                 
                 ?>
                 
 
