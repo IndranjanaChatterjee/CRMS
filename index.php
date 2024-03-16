@@ -15,8 +15,8 @@
 <nav>
   <h1>ClientEase</h1>
   <div class="right">
-    <p><a href="login.php" class="login">Login</a></p>
-    <p><a href="register.php" class="login">Register</a></p>
+    <p><a href="login_form.php" class="login">Login</a></p>
+    <p><a href="register_form.php" class="login">Register</a></p>
   </div>
 </nav>
 </header>
