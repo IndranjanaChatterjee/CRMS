@@ -67,3 +67,7 @@ a{
     border-radius: 1.5rem;
     padding: 1rem;
  }
+ .show{
+  background-color: aqua;
+  margin: auto
+ }

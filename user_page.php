@@ -2,6 +2,11 @@
 
 @include 'config.php';
 
+
+
+@include 'connect.php';
+
+
 session_start();
 
 if(!isset($_SESSION['user_name'])){
@@ -19,7 +24,7 @@ if(!isset($_SESSION['user_name'])){
    <title>user page</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="userstyle.css">
+   <link rel="stylesheet" href="user_style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -29,7 +34,7 @@ if(!isset($_SESSION['user_name'])){
 <nav>
   <a href="index.php" class="head">ClientEase</a>
   <div class="right">
-    <p><a href="cart.php" class="login"><i class="fa-solid fa-cart-shopping"></i>Cart</a></p>
+    <p><a href="user_page.php" class="login"><i class="fa-solid fa-cart-shopping"></i>Cart</a></p>
     <a href="logout.php" class="login">logout</a>
     
   </div>
@@ -45,6 +50,51 @@ if(!isset($_SESSION['user_name'])){
       
    </div>
 
+</div>
+<div class="show">
+   <h2>Show Data</h2>
+   <section class="display">
+        <table>
+            <thead>
+                
+                <th class="th">Product Name</th>
+                <th>Product Image</th>
+                <th>Product Price</th>
+                <th>Buy</th>
+            </thead>
+            <tbody>
+                <?php
+
+                 $display_products=mysqli_query($conn,"Select * from `products`");
+                 if(mysqli_num_rows($display_products)>0)
+                 {
+                    while($row=mysqli_fetch_assoc($display_products))
+                    {
+                        $product_name=$row['name'];
+                        ?>
+                        <tr>
+                    <td><?php echo $product_name ?></td>
+                    
+                    <td><img src="images/<?php echo $row['image']?>" alt="img"></td>
+                    <td><?php echo $row['price']?></td>
+                    <td>
+                    <a href="delete.php?delete=<?php echo $row['id']?>" onclick="return alert('Successfully bought');">BUY</a>
+                        
+                    
+                    
+                    </td>
+                </tr>
+                        <?php
+                    }
+                 }
+                 
+                 
+                ?>
+                
+
+            </tbody>
+        </table>
+    </section>
 </div>
 
 </body>

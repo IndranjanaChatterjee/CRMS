@@ -48,16 +48,16 @@
                         $product_name=$row['name'];
                         ?>
                         <tr>
-                    <td><?php echo $product_name ?></td>
+                    <th><?php echo $product_name ?></th>
                     
-                    <td><img src="images/<?php echo $row['image']?>" alt="img"></td>
-                    <td><?php echo $row['price']?></td>
-                    <td>
+                    <th><img src="images/<?php echo $row['image']?>" alt="img"></th>
+                    <th><?php echo $row['price']?></th>
+                    <th>
                         <a href="delete.php?delete=<?php echo $row['id']?>" onclick="return confirm('Are you sure you want to delete?');"><i class="fa-solid fa-trash"></i></a>
                         
                     
                     
-                    </td>
+                    </th>
                 </tr>
                         <?php
                     }

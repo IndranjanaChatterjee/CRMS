@@ -8,7 +8,7 @@ body{
     min-height: 100vh;
   display: flex;
   flex-direction: column;
- 
+  
   color: white;
   position: relative;
 
@@ -55,6 +55,46 @@ a{
     align-items: center;
     gap: 1.3rem;
  }
+ .main{
+  background-color: aliceblue;
+ }
+ 
+ .container{
+    position: absolute;
+    left:1%;
+    top:10%;
+    border: 1.5px solid white;
+    border-radius: 1.5rem;
+    padding: 1rem;
+ }
+ .show{
+  width: 90%;
+  
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .show h2{
+    width: 100%;
+    text-align: center;
+ }
+ img{
+    width: 5rem;
+ }
+ .details{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+ }
+ .pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
  .display table{
     
     margin: auto;
@@ -66,8 +106,3 @@ a{
     text-align: center;
 
 }
-tbody{
-  font-size: 2rem;
-  text-align: center;
-}
- 
