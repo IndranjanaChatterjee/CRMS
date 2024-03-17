@@ -9,6 +9,7 @@
 }
 body{
     background: linear-gradient(#340429, #750d37);
+    position: relative;
 }
 
 .container{
@@ -141,4 +142,16 @@ body{
    border-radius: 5px;
    font-size: 20px;
    padding:10px;
+}
+.img{
+   width: 22rem;
+   position: absolute;
+   left:5%;
+   top:35%;
+}
+.img1{
+   width: 20rem;
+   position: absolute;
+   right:5%;
+   top:30%;
 }

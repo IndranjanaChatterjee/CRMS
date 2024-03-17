@@ -48,6 +48,7 @@ if(isset($_POST['add_product']))
   <div class="right">
     <a href="admin_page.php" class="login">Add Products</a>
     <p><a href="view.php" class="login">View Products</p>
+    <a href="feedback.php" class="login">Feedbacks</a>
     <a href="logout.php" class="login">logout</a>
     
   </div>

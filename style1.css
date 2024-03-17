@@ -189,7 +189,7 @@ a{
     margin-left: 0;
     border: 1px solid grey;
   }
-  .accordion .container.active .content {
+  .accordion .container .active .content {
     height: 150px;
   }
   

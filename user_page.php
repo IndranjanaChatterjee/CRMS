@@ -34,7 +34,8 @@ if(!isset($_SESSION['user_name'])){
 <nav>
   <a href="index.php" class="head">ClientEase</a>
   <div class="right">
-    <p><a href="user_page.php" class="login"><i class="fa-solid fa-cart-shopping"></i>Cart</a></p>
+    <p><a href="user_page.php" class="login">ShopIt</a></p>
+    <a href="user_feedback.php" class="login">Feedback</a>
     <a href="logout.php" class="login">logout</a>
     
   </div>

@@ -38,20 +38,20 @@
     <h1 class="faq_h1">EXPLORE</h1>
     <hr>
     <div class="container">
-      <div class="label">What is HTML</div>
-      <div class="content">Hypertext Markup Language (HTML) is a computer language that makes up most web pages and online applications. A hypertext is a text that is used to reference other pieces of text, while a markup language is a series of markings that tells web servers the style and structure of a document. HTML is very simple to learn and use.</div>
+      <div class="label">What is CRM (customer relationship management)?</div>
+      <div class="content">CRM (customer relationship management) is the combination of practices, strategies and technologies that companies use to manage and analyze customer interactions and data throughout the customer lifecycle. The goal is to improve customer service relationships and assist with customer retention and drive sales growth.</div>
     </div>
     <hr>
     <div class="container">
-      <div class="label">What is CSS?</div>
-      <div class="content">CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users. CSS is designed to make style sheets for the web. It is independent of HTML and can be used with any XML-based markup language. CSS is popularly called the design language of the web.
+      <div class="label">Can your CRM system integrate with other tools we're already using in our business?</div>
+      <div class="content">Yes, our CRM software is designed to integrate seamlessly with a wide range of third-party applications and tools commonly used in businesses such as email marketing platforms, accounting software, and productivity tools. This ensures smooth data flow across your business ecosystem.
 </div>
     </div>
     <hr>
     
     <div class="container">
-      <div class="label">What is HTML</div>
-      <div class="content">Hypertext Markup Language (HTML) is a computer language that makes up most web pages and online applications. A hypertext is a text that is used to reference other pieces of text, while a markup language is a series of markings that tells web servers the style and structure of a document. HTML is very simple to learn and use.</div>
+      <div class="label">How does your CRM system help in improving customer engagement and retention?</div>
+      <div class="content"> Our CRM solution provides tools for personalized communication, automated follow-ups, and customer segmentation, enabling you to engage with your audience in a more targeted and meaningful way. By understanding customer preferences and behavior, you can deliver tailored experiences that foster loyalty and satisfaction.</div>
     </div>
     
   </div>

@@ -43,10 +43,12 @@ if(isset($_POST['submit'])){
    <title>register form</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="stylee.css">
 
 </head>
 <body>
+   <img src="maincrm.png" alt="img" class="img">
+   <img src="ccrm.png" alt="img" class="img1">
    
 <div class="form-container">
 
