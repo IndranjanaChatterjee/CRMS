@@ -74,16 +74,16 @@ if(!isset($_SESSION['user_name'])){
                         $product_name=$row['name'];
                         ?>
                         <tr>
-                    <td><?php echo $product_name ?></td>
+                    <th><?php echo $product_name ?></th>
                     
-                    <td><img src="images/<?php echo $row['image']?>" alt="img"></td>
-                    <td><?php echo $row['price']?></td>
-                    <td>
-                    <a href="delete.php?delete=<?php echo $row['id']?>" onclick="return alert('Successfully bought');">BUY</a>
+                    <th><img src="images/<?php echo $row['image']?>" alt="img"></th>
+                    <th><?php echo $row['price']?></th>
+                    <th>
+                    <a href="buy.php?delete=<?php echo $row['id']?>" onclick="return alert('Successfully bought');">BUY</a>
                         
                     
                     
-                    </td>
+                    </th>
                 </tr>
                         <?php
                     }
