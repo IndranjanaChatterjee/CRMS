@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="mainstyle.css">
     
 </head>
 <body>
@@ -67,7 +67,7 @@ const accordion = document.getElementsByClassName('container');
 
 for (i=0; i<accordion.length; i++) {
   accordion[i].addEventListener('click', function () {
-    this.classList.toggle('active')
+    this.classList.toggle('active');
   })
 }
 </script>
