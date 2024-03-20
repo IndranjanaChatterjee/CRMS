@@ -49,6 +49,12 @@ if(isset($_POST['submit'])){
 <body>
    <img src="maincrm.png" alt="img" class="img">
    <img src="ccrm.png" alt="img" class="img1">
+
+   <div class="head">
+      <a href="index.php" style="color:white; text-decoration:none; font-size:2rem;
+    font-size: 2rem;" >ClientEase</a>
+
+   </div>
    
 <div class="form-container">
 
