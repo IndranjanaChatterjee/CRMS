@@ -10,6 +10,7 @@ if(isset($_GET['delete']))
       header('location:user_page.php');
       
    }
+
    
    
 }
